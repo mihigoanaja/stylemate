@@ -31,7 +31,7 @@ To get started with stylemate, simply include the CSS file in your project and s
 1. **Download** the latest version of stylemate from the [releases page](https://github.com/mihigoanaja/stylemate/releases).
 2. **Include** the CSS file in your HTML:
     ```html
-    <link rel="stylesheet" href="css/STYLEMATE-1.0.0.min.css">
+    <link rel="stylesheet" href="css/STYLEMATE-1.0.0.css">
     ```
 3. **Start building** your web page using the utility classes provided by stylemate.
 
@@ -45,7 +45,7 @@ Here's a simple example of how to use stylemate:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stylemate Example</title>
-    <link rel="stylesheet" href="css/STYLEMATE-1.0.0.min.css">
+    <link rel="stylesheet" href="css/STYLEMATE-1.0.0.css">
 </head>
 <body class="bgcolor-fff color-000">
     <header class="bgcolor-001 color-fff padding-20 text-center">
