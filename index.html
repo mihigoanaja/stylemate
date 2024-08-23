@@ -31,6 +31,12 @@
 		.text-center {
 			text-align: center;
 		}
+		pre {
+			overflow-x: scroll;
+			overflow-y: hidden;
+			scrollbar-width: thin;
+			scrollbar-color: #666 #eee;
+		}
     </style>
 </head>
 <body class="bgcolor-fff color-000">
@@ -68,7 +74,9 @@
         <div class="padding-20">
             <h3 class="font-size-30">1. Typography</h3>
             <p class="font-size-25">Example text with <span class="font-weight-bold">bold</span>, <span class="underline">underline</span>, and <span class="linethrough">strikethrough</span> styles.</p>
-
+			<pre class="bgcolor-333 padding-10"><code>&lt;p class="font-weight-bold"&gt;Bold text&lt;/p&gt;
+&lt;p class="underline"&gt;Underlined text&lt;/p&gt;
+&lt;p class="line-through"&gt;Strikethrough text&lt;/p&gt;</code></pre>
             <h3 class="font-size-30">2. Layouts</h3>
             <div class="display-flex justify-content-space-between padding-20">
                 <div class="bgcolor-003 color-fff padding-20">
@@ -78,16 +86,50 @@
                     <p class="font-size-25">Another flex item.</p>
                 </div>
             </div>
+			<pre class="bgcolor-333 padding-10"><code>&lt;div class="display-flex justify-content-space-between"&gt;
+    &lt;div class="bgcolor-003 color-fff padding-20"&gt;Flexible box layout.&lt;/div&gt;
+    &lt;div class="bgcolor-004 color-fff padding-20"&gt;Another flex item.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
             <h3 class="font-size-30">3. Buttons</h3>
             <a href="#" class="font-size-20 color-fff bgcolor-f90 padding-10 curved-edge-50 mouse-over-color-000 mouse-over-bgcolor-fff box-shadow margin-20">Click Me</a>
+			<div class="margin-50"></div>
+			<pre class="bgcolor-333 padding-10"><code>&lt;a href="#" class="font-size-20 color-fff bgcolor-f90 padding-10 curved-edge-50 mouse-over-color-000 mouse-over-bgcolor-fff box-shadow margin-20"&gt;Click Me&lt;/a&gt;</code></pre>
         </div>
     </section>
-
+	
+	    <!-- Download and CDN Section -->
+    <section class="padding-50">
+        <h2 class="font-size-36">Download Stylemate</h2>
+        <p class="font-size-25">Get the latest version of Stylemate and start using it in your projects.</p>
+        <div class="display-flex">
+			<a href="https://github.com/mihigoanaja/stylemate/archive/refs/tags/v1.0.0.zip" target="_blank" class="font-size-20 color-fff bgcolor-09f padding-10 curved-edge-50 mouse-over-color-09f mouse-over-bgcolor-fff box-shadow margin-20">Download Stylemate V1.0.0</a>
+			<a href="https://github.com/mihigoanaja/stylemate/releases/latest" target="_blank" class="font-size-20 color-000 bgcolor-0f9 padding-10 curved-edge-50 mouse-over-color-09f mouse-over-bgcolor-fff box-shadow margin-20">View Latest Release</a>
+		</div>
+		
+        <h2 class="font-size-36">Use via CDN</h2>
+        <p class="font-size-25">Include Stylemate directly in your project using the CDN link below.</p>
+        <pre class="bgcolor-333 padding-10 color-fff"><code>&lt;link rel="stylesheet" href="https://mihigoanaja.github.io/stylemate/css/STYLEMATE-1.0.0.css"&gt;</code></pre>
+		<div class="margin-50"></div>
+        <div class="display-flex">
+			<a href="https://mihigoanaja.github.io/stylemate/css/STYLEMATE-1.0.0.css" class="font-size-20 color-fff bgcolor-09f padding-10 curved-edge-50 mouse-over-color-09f mouse-over-bgcolor-fff box-shadow margin-20" target="_blank">Open CDN Link</a>
+			<a href="javascript:copyCodes();" target="_self" class="font-size-20 color-000 bgcolor-0f9 padding-10 curved-edge-50 mouse-over-color-09f mouse-over-bgcolor-fff box-shadow margin-20" target="_blank">Copy Codes</a>
+        </div>
+		<div class="margin-50"></div>
+    </section>
+	
     <!-- Footer Section -->
     <footer class="bgcolor-071 color-eee text-center padding-20 box-shadow">
         <p class="font-size-25">Stylemate © 2024 - All Rights Reserved</p>
     </footer>
-
+	<script>
+		/* Notify JS */
+		document.body.innerHTML+=`<style>#notifictaions {position: fixed;left: 0px;top: 0px;width: 100%;}.notifictaion {margin: 10px auto;max-width: 500px;padding: 10px;background-color: #fff;;border: 1px solid #000;border-radius: 5px;font-weight: bold;font-size: 20px;font-family: monospace,consolas,sans-serif;color: #000;box-shadow: 0 0 3px #000;text-align: center;}<\/style><div id="notifictaions"><\/div>`;
+		function notify(text="",delay=2) {var notifictaion=document.createElement("div");notifictaion.classList.add("notifictaion");notifictaion.innerText=text;notifictaions.appendChild(notifictaion);setTimeout(()=>notifictaion.remove(),delay*1000);}
+		function copyCodes() {
+			navigator.clipboard.writeText('<link rel="stylesheet" href="https://mihigoanaja.github.io/stylemate/css/STYLEMATE-1.0.0.css">');
+			notify("Text Copied Successfully ...");
+		}
+	</script>
 </body>
 </html>
