@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylemate - CSS Framework</title>
+	<link rel="stylesheet" href="css/STYLEMATE-1.0.0.min.css">
+    <style>
+        html,body {
+			margin: 0px;
+			font-family: Arial, sans-serif;
+			scroll-behavior: smooth;
+		}
+		a:any-link {
+			text-decoration: none;
+		}
+		.box-shadow {
+			box-shadow: 0 0 5px 2px #000;
+		}
+		@media (orientation: portrait) {
+			.display-flex {
+				flex-wrap: wrap;
+			}
+			.display-flex>* {
+				width: 100%;
+				max-width: 100%;
+				margin: 0px;
+				margin-bottom: 20px;
+			}
+		}
+		.text-center {
+			text-align: center;
+		}
+    </style>
+</head>
+<body class="bgcolor-fff color-000">
+
+    <!-- Header Section -->
+    <header class="bgcolor-0b5 color-fff padding-30 text-center box-shadow">
+        <h1 class="font-size-48 font-weight-bold">Welcome to Stylemate</h1>
+        <p class="font-size-30 margin-30">The lightweight, powerful CSS framework for building modern web designs</p>
+		<div class="margin-90"></div>
+        <a href="#get-started" class="font-size-20 color-fff bgcolor-f90 padding-10 curved-edge-50 mouse-over-color-000 mouse-over-bgcolor-fff box-shadow margin-20">Get Started</a>
+    </header>
+
+    <!-- Features Section -->
+    <section class="padding-20">
+        <h2 class="font-size-36 text-center">Key Features</h2>
+        <div class="display-flex justify-content-space-around padding-20">
+            <div class="text-center bgcolor-ffa padding-20 margin-10 border-radius-20 box-shadow mouse-over-bgcolor-b80 mouse-over-color-fff">
+                <h3 class="font-size-30 font-weight-bold">Flexible Layouts</h3>
+                <p class="font-size-25">Easily build responsive and modern layouts with our display and flex classes.</p>
+            </div>
+            <div class="text-center bgcolor-aff padding-20 margin-10 border-radius-20 box-shadow mouse-over-bgcolor-a40 mouse-over-color-fff">
+                <h3 class="font-size-30 font-weight-bold">Customizable Styles</h3>
+                <p class="font-size-25">Create unique designs with our extensive color, padding, margin, and font size classes.</p>
+            </div>
+            <div class="text-center bgcolor-faf padding-20 margin-10 border-radius-20 box-shadow mouse-over-bgcolor-005 mouse-over-color-0f9">
+                <h3 class="font-size-30 font-weight-bold">Quick Start</h3>
+                <p class="font-size-25">Get up and running quickly with pre-built utility classes for common design patterns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Example Section -->
+    <section id="get-started" class="bgcolor-0b5 color-fff padding-50">
+        <h2 class="font-size-36 text-center">Using Stylemate</h2>
+        <div class="padding-20">
+            <h3 class="font-size-30">1. Typography</h3>
+            <p class="font-size-25">Example text with <span class="font-weight-bold">bold</span>, <span class="underline">underline</span>, and <span class="linethrough">strikethrough</span> styles.</p>
+
+            <h3 class="font-size-30">2. Layouts</h3>
+            <div class="display-flex justify-content-space-between padding-20">
+                <div class="bgcolor-003 color-fff padding-20">
+                    <p class="font-size-25">Flexible box layout.</p>
+                </div>
+                <div class="bgcolor-004 color-fff padding-20">
+                    <p class="font-size-25">Another flex item.</p>
+                </div>
+            </div>
+
+            <h3 class="font-size-30">3. Buttons</h3>
+            <a href="#" class="font-size-20 color-fff bgcolor-f90 padding-10 curved-edge-50 mouse-over-color-000 mouse-over-bgcolor-fff box-shadow margin-20">Click Me</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bgcolor-071 color-eee text-center padding-20 box-shadow">
+        <p class="font-size-25">Stylemate © 2024 - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
