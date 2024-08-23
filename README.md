@@ -1,6 +1,6 @@
-# stylemate - Lightweight CSS Framework
+# Stylemate - Lightweight CSS Framework
 
-<!--![stylemate Logo](https://example.com/logo.png)--> <!-- Replace with your logo link -->
+![stylemate Logo](https://img.itch.zone/aW1nLzE3NTA4NjAyLnBuZw==/original/RPJspJ.png) <!-- Replace with your logo link -->
 
 **stylemate** is a lightweight and powerful CSS framework designed to simplify the process of creating responsive, modern web designs. With a focus on flexibility and ease of use, stylemate provides a comprehensive set of utility classes that can be used to quickly build stylish web pages without the need to write custom CSS from scratch.
 
