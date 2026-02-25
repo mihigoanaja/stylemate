@@ -45,7 +45,7 @@ Here's a simple example of how to use stylemate:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stylemate Example</title>
-    <link rel="stylesheet" href="https://stylemate.pages.dev/css/STYLEMATE-1.0.0.css">
+    <link rel="stylesheet" href="https://stylemate.alreflections.net/css/STYLEMATE-1.0.0.css">
 </head>
 <body class="bgcolor-fff color-000">
     <header class="bgcolor-001 color-fff padding-20 text-center">
@@ -65,7 +65,7 @@ There are several ways to include stylemate in your project:
 You can quickly include stylemate via a CDN (Content Delivery Network):
 
 ```html
-<link rel="stylesheet" href="https://stylemate.pages.dev/css/STYLEMATE-1.0.0.css">
+<link rel="stylesheet" href="https://stylemate.alreflections.net/css/STYLEMATE-1.0.0.css">
 ```
 
 ### 2. Download
@@ -93,7 +93,7 @@ For detailed usage and examples, please refer to the [documentation](#documentat
 
 ## Documentation (Coming Soon)
 
-Comprehensive documentation is available on our [official site](https://stylemate.pages.dev/). Here you'll find:
+Comprehensive documentation is available on our [official site](https://stylemate.alreflections.net/). Here you'll find:
 
 - Full class reference
 - Examples of usage
@@ -119,7 +119,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Stay Connected
 
-- **Website**: [stylemate Official]([https://mihigoanaja.blogspot.com](https://stylemate.pages.dev/))
+- **Website**: [stylemate Official]([https://mihigoanaja.blogspot.com](https://stylemate.alreflections.net/))
 <!--
 - **Twitter**: [@stylemateCSS](https://twitter.com/stylemateCSS)
 - **Discord**: [Join our Community](https://discord.com/invite/stylemate)
